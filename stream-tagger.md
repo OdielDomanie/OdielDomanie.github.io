@@ -17,6 +17,9 @@ A discord bot that allows users to live tag live-streams, inspired by Korotagger
 * Designed with the "**Never lose your tags**" philosophy
 * Cool formatting with sub-tags
 
+Invite link:  
+https://discord.com/api/oauth2/authorize?client_id=989538094288105492&permissions=117824&scope=bot%20applications.commands
+
 ## Usage
 
 The bot supports both classic commands and slash commands. In both cases, creating tags is done via backtick (`` ` ``).
