@@ -36,7 +36,7 @@ Press ❌ to delete the tag from bot's database. ⭐ adds a star in the tag outp
 You can use more than one back tick to create indents in the output. Eg.:
 
 ```
-``another tag`  
+``another tag  
 ``one more tag  
 `` `tagggg
 ```  
@@ -44,10 +44,10 @@ You can use more than one back tick to create indents in the output. Eg.:
 renders as:
 
 ```
-7m20s    \| your tag  
-├ 8m30s  \| another tag  
-├ 8m38s  \| one more tag  
-└─ 9m39s \| tagggg  
+7m20s    | your tag  
+├ 8m30s  | another tag  
+├ 8m38s  | one more tag  
+└─ 9m39s | tagggg  
 ```
 
 #### Adjust
@@ -61,7 +61,9 @@ Use `/tags <stream>` to dump the tags for a stream. The stream doesn't need any 
 
 `stream` can be the
 * name a of Vtuber, full or partial (`Selen Tatsuki 【NIJISANJI EN】` or `tatsu`),
+
 * channel url (`https://www.youtube.com/channel/UCV1xUwfM2v2oBtT3JNvic3w`, `https://www.twitch.tv/selentatsuki`, `UCV1xUwfM2v2oBtT3JNvic3w`),
+
 * stream url (`https://www.youtube.com/watch?v=99cq9wz2SOc`, `https://www.twitch.tv/videos/1510546725`, `99cq9wz2SOc`)
 
 If you use the Vtuber name, the bot looks at all the accounts of the streamer across platforms to find the latest stream.
