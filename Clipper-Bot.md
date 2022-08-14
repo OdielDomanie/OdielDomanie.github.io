@@ -1,3 +1,7 @@
+layout: page
+title: "Clipper Bot"
+permalink: /callipper/
+
 # Clipper Bot
 
 Discord bot that helps you clip live streams!
