@@ -17,8 +17,7 @@ A discord bot that allows users to live tag live-streams, inspired by Korotagger
 * Designed with the "**Never lose your tags**" philosophy
 * Cool formatting with sub-tags
 
-Invite link:  
-https://discord.com/api/oauth2/authorize?client_id=989538094288105492&permissions=117824&scope=bot%20applications.commands
+[Invite link](https://discord.com/api/oauth2/authorize?client_id=989538094288105492&permissions=117824&scope=bot%20applications.commands)
 
 ## Usage
 
@@ -124,6 +123,8 @@ To add users or roles to the admin list, use `admin_add`, `admin_rem` and `admin
 
 You can use `help settings` to view help regarding all settings commands, or `help settings command` to view detailed help.
 
-## Required permissions:
+---
+
+### Required permissions:
 ![image](https://user-images.githubusercontent.com/76059582/184538376-a3a23162-4dad-4291-b973-fb094060576a.png)
 
