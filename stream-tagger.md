@@ -35,17 +35,19 @@ Press ❌ to delete the tag from bot's database. ⭐ adds a star in the tag outp
 ### Sub-tags
 You can use more than one back tick to create indents in the output. Eg.:
 
-` ``another tag`  
-``` ``one more tag ```  
-``` `` `tagggg ```  
+```
+``another tag`  
+``one more tag  
+`` `tagggg
+```  
 
 renders as:
 
 ```
-7m20s    | your tag  
-├ 8m30s  | another tag  
-├ 8m38s  | one more tag  
-└─ 9m39s | tagggg  
+7m20s    \| your tag  
+├ 8m30s  \| another tag  
+├ 8m38s  \| one more tag  
+└─ 9m39s \| tagggg  
 ```
 
 #### Adjust
