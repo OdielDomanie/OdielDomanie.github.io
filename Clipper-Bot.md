@@ -13,6 +13,13 @@ The bot can create clip files from live streams and VODs and post it directly to
 Supports optional slash commands.
 
 
+### Also check out:
+
+ * [Voice Balancer](https://odieldomanie.github.io/voicebalancer/): Inspired by Selen's audio troubles, your server's own audio engineer for the voice chat.
+
+ * [Stream Tagger](https://odieldomanie.github.io/streamtagger/): Korotagger compatible tagger bot with slash commands, members' tag, and other features. 
+
+
 ## How to use
 
 (If you are not using slash commands, you can use `__help` to get details of individual commands.)
