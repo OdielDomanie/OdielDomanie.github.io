@@ -120,3 +120,7 @@ Only "admin"s (or users with "Manage Server" permissions) can use the `settings`
 To add users or roles to the admin list, use `admin_add`, `admin_rem` and `admin_list` with user and role names or ids.
 
 You can use `help settings` to view help regarding all settings commands, or `help settings command` to view detailed help.
+
+## Required permissions:
+![image](https://user-images.githubusercontent.com/76059582/184538376-a3a23162-4dad-4291-b973-fb094060576a.png)
+
