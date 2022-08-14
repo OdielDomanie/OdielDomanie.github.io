@@ -90,3 +90,8 @@ The permission system for legacy commands is too complicated (and buggy) that I 
 ### Adding to the server
 
 You can contact me (Terlick#8575) at Discord if you want to add the bot to your server, or have any questions.
+
+#### Donations
+
+The server costs 12$ a month; so if you want to contribute, you can donate here: [https://ko-fi.com/odiel](https://ko-fi.com/odiel) <3  
+You can also donate a domain name instead if you want to...
