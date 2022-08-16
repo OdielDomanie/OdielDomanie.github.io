@@ -12,14 +12,6 @@ The bot can create clip files from live streams and VODs and post it directly to
 
 Supports optional slash commands.
 
-
-### Also check out:
-
- * [Voice Balancer](https://odieldomanie.github.io/voicebalancer/): Inspired by Selen's audio troubles, your server's own audio engineer for the voice chat.
-
- * [Stream Tagger](https://odieldomanie.github.io/streamtagger/): Korotagger compatible tagger bot with slash commands, members' tag, and other features. 
-
-
 ## How to use
 
 (If you are not using slash commands, you can use `__help` to get details of individual commands.)
@@ -48,6 +40,8 @@ Clip from 2 minutes ago with a duration of 40 seconds.
 Clip the timestamp. Stream URL is optional, and if you don't include it, the last stream in the channel is assumed.
 
 ![image](https://user-images.githubusercontent.com/76059582/184143916-80909a73-ef47-4ba5-a42a-e77d2928c097.png)
+![image](https://user-images.githubusercontent.com/76059582/184969111-cef4eb75-1e73-451c-af4d-7de7a5f39f31.png)
+
 
 Either of these three will work:  
 * `/edit 1001237981147717632`
