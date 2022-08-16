@@ -31,10 +31,10 @@ From simple to advanced:
 `/c`  
 Clip the last 10 seconds.
 
-`/c 30`  
+`/c (seconds_ago=)30`  
 Clip the last 30 seconds.
 
-`/c 2:00 40`  
+`/c (seconds_ago=)2:00 (duration=)40`  
 Clip from 2 minutes ago with a duration of 40 seconds.
 
 `/a` is the same as `/c`, but audio only.
@@ -44,15 +44,20 @@ Clip from 2 minutes ago with a duration of 40 seconds.
 ![image](https://user-images.githubusercontent.com/76059582/184273230-3f2cabbc-1d96-44ec-8b1e-cb89b7068aed.png)
 
 
-`/c-timestamp 30:00 1:00`  
+`/c-timestamp 52:00 40`  
 Clip the timestamp. Stream URL is optional, and if you don't include it, the last stream in the channel is assumed.
 
 ![image](https://user-images.githubusercontent.com/76059582/184143916-80909a73-ef47-4ba5-a42a-e77d2928c097.png)
 
-`/edit 1001232251218981234`
-Add edit controls to a clip. The number is either the message id, or the link to the message. You can find either of them in the `...` menu at the upper right of a message on Discord.
+Either of these three will work:  
+* `/edit 1001237981147717632`
+* or `/edit 1001230734510956730-1001237981147717632`
+* or `/edit https://discord.com/channels/1001230734510956727/1001230734510956730/1001237981147717632`
 
-`/ss`  Take a screenshot with anime-face detection.
+Add edit controls to a clip. The number is either the **message id**, or the **link to the message**. You can find either of them in the `...` menu at the upper right of a message on Discord.
+
+`/ss`  
+Take a screenshot with anime-face detection.
 
 ## Setup (for mods)
 
@@ -95,3 +100,11 @@ You can contact me (Terlick#8575) at Discord if you want to add the bot to your 
 
 The server costs 12$ a month; so if you want to contribute, you can donate here: [https://ko-fi.com/odiel](https://ko-fi.com/odiel) <3  
 You can also donate a domain name instead if you want to...
+
+---
+
+
+### Other bots I did:
+
+ * [Voice Balancer](https://odieldomanie.github.io/voicebalancer/): Inspired by Selen's audio troubles, your server's own audio engineer for the voice chat.  
+ * [Stream Tagger](https://odieldomanie.github.io/streamtagger/): Korotagger compatible tagger bot with slash commands, members' tagging, and other features. 
