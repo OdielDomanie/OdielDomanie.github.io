@@ -39,7 +39,10 @@ Clip from 2 minutes ago with a duration of 40 seconds.
 * `/c-timestamp 52:00 40`  
 Clip the timestamp. Stream URL is optional, and if you don't include it, the last stream in the channel is assumed.
 
-* Editing:
+* `/ss`  
+Take a screenshot with anime-face detection.
+
+#### Editing
 
 ![image](https://user-images.githubusercontent.com/76059582/185222859-66c320d0-22eb-4d4e-bb2e-2c0f12e618e3.png)
 ![image](https://user-images.githubusercontent.com/76059582/184969111-cef4eb75-1e73-451c-af4d-7de7a5f39f31.png)
@@ -52,8 +55,10 @@ Either of these three will work:
 
 Add edit controls to a clip. The number is either the **message id**, or the **link to the message**. You can find either of them in the `...` menu at the upper right of a message on Discord.
 
-* `/ss`  
-Take a screenshot with anime-face detection.
+![image](https://user-images.githubusercontent.com/76059582/185227283-dc5aff79-ca2d-4076-96e1-cf3668adbae1.png)
+
+The buttons move the start point or the end point back or forward in time, while keeping the other point fixed.
+⏪ Moves the point 10 seconds back, ◀ 1 second back, ▶ 1 second forward, and ⏩ 10 seconds forward.
 
 ## Setup (for mods)
 
