@@ -57,8 +57,8 @@ Add edit controls to a clip. The number is either the **message id**, or the **l
 
 ![image](https://user-images.githubusercontent.com/76059582/185227283-dc5aff79-ca2d-4076-96e1-cf3668adbae1.png)
 
-The buttons move the start point or the end point back or forward in time, while keeping the other point fixed.
-⏪ Moves the point 10 seconds back, ◀ 1 second back, ▶ 1 second forward, and ⏩ 10 seconds forward.
+The buttons move the start point or the end point back or forward in time, while keeping the other point fixed.  
+In order, the buttons are: 10 seconds back, 1 second back, 1 second forward, 10 seconds forward.
 
 ## Setup (for mods)
 
