@@ -39,7 +39,7 @@ Clip from 2 minutes ago with a duration of 40 seconds.
 * `/c-timestamp 52:00 40`  
 Clip the timestamp. Stream URL is optional, and if you don't include it, the last stream in the channel is assumed.
 
-* Editing
+* Editing:
 
 ![image](https://user-images.githubusercontent.com/76059582/185222859-66c320d0-22eb-4d4e-bb2e-2c0f12e618e3.png)
 ![image](https://user-images.githubusercontent.com/76059582/184969111-cef4eb75-1e73-451c-af4d-7de7a5f39f31.png)
@@ -52,7 +52,7 @@ Either of these three will work:
 
 Add edit controls to a clip. The number is either the **message id**, or the **link to the message**. You can find either of them in the `...` menu at the upper right of a message on Discord.
 
-`/ss`  
+* `/ss`  
 Take a screenshot with anime-face detection.
 
 ## Setup (for mods)
