@@ -39,7 +39,7 @@ Clip from 2 minutes ago with a duration of 40 seconds.
 `/c-timestamp 52:00 40`  
 Clip the timestamp. Stream URL is optional, and if you don't include it, the last stream in the channel is assumed.
 
-![image](https://user-images.githubusercontent.com/76059582/184143916-80909a73-ef47-4ba5-a42a-e77d2928c097.png)
+![image](https://user-images.githubusercontent.com/76059582/185222859-66c320d0-22eb-4d4e-bb2e-2c0f12e618e3.png)
 ![image](https://user-images.githubusercontent.com/76059582/184969111-cef4eb75-1e73-451c-af4d-7de7a5f39f31.png)
 
 
@@ -61,7 +61,7 @@ Use `/register <channel_name>` to "register" a streamer channel to a text channe
 
 `/unregister` to undo the above. Note: If you are ever deleting a text channel or removing the bot from the server, please unregister all the channels first to make my life easier :)
 
-![image](https://user-images.githubusercontent.com/76059582/185222859-66c320d0-22eb-4d4e-bb2e-2c0f12e618e3.png)
+![image](https://user-images.githubusercontent.com/76059582/184272444-63916180-a468-44b2-917b-a3804f5ef69e.png)
 
 ![image](https://user-images.githubusercontent.com/76059582/184274581-c0e3c7b2-e418-4248-99b2-5aa7f55cef09.png)
 
