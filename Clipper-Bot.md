@@ -20,24 +20,26 @@ From simple to advanced:
 
 ![image](https://user-images.githubusercontent.com/76059582/184143606-bad02fbf-aac2-4c48-a354-6515d42272eb.png)
 
-`/c`  
+* `/c`  
 Clip the last 10 seconds.
 
-`/c (seconds_ago=)30`  
+* `/c (seconds_ago=)30`  
 Clip the last 30 seconds.
 
-`/c (seconds_ago=)2:00 (duration=)40`  
+* `/c (seconds_ago=)2:00 (duration=)40`  
 Clip from 2 minutes ago with a duration of 40 seconds.
 
-`/a` is the same as `/c`, but audio only.
+* `/a` is the same as `/c`, but audio only.
 
 ![image](https://user-images.githubusercontent.com/76059582/184273390-f453b738-91d4-4e51-8d1c-d7bda64bc212.png)
 
 ![image](https://user-images.githubusercontent.com/76059582/184273230-3f2cabbc-1d96-44ec-8b1e-cb89b7068aed.png)
 
 
-`/c-timestamp 52:00 40`  
+* `/c-timestamp 52:00 40`  
 Clip the timestamp. Stream URL is optional, and if you don't include it, the last stream in the channel is assumed.
+
+* Editing
 
 ![image](https://user-images.githubusercontent.com/76059582/185222859-66c320d0-22eb-4d4e-bb2e-2c0f12e618e3.png)
 ![image](https://user-images.githubusercontent.com/76059582/184969111-cef4eb75-1e73-451c-af4d-7de7a5f39f31.png)
