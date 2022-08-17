@@ -61,7 +61,7 @@ Use `/register <channel_name>` to "register" a streamer channel to a text channe
 
 `/unregister` to undo the above. Note: If you are ever deleting a text channel or removing the bot from the server, please unregister all the channels first to make my life easier :)
 
-![image](https://user-images.githubusercontent.com/76059582/184272444-63916180-a468-44b2-917b-a3804f5ef69e.png)
+![image](https://user-images.githubusercontent.com/76059582/185222859-66c320d0-22eb-4d4e-bb2e-2c0f12e618e3.png)
 
 ![image](https://user-images.githubusercontent.com/76059582/184274581-c0e3c7b2-e418-4248-99b2-5aa7f55cef09.png)
 
@@ -90,7 +90,14 @@ The permission system for legacy commands is too complicated (and buggy) that I 
 
 You can contact me (Terlick#8575) at Discord if you want to add the bot to your server, or have any questions.
 
-#### Donations
+#### Required Permissions
+![image](https://user-images.githubusercontent.com/76059582/185222260-8c598c4f-b5cd-4a93-8f5a-0e5460e86b94.png)
+
+In addition, "Read Messages (View Channel)" permission is required for legacy commands.
+
+---
+
+### Donations
 
 The server costs 12$ a month; so if you want to contribute, you can donate here: [https://ko-fi.com/odiel](https://ko-fi.com/odiel) <3  
 You can also donate a domain name instead if you want to...
