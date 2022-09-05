@@ -48,7 +48,7 @@ Take a screenshot with anime-face detection.
 ![image](https://user-images.githubusercontent.com/76059582/184969111-cef4eb75-1e73-451c-af4d-7de7a5f39f31.png)
 
 
-Either of these three will work:  
+Any of these three will work:  
 * `/edit 1001237981147717632`
 * or `/edit 1001230734510956730-1001237981147717632`
 * or `/edit https://discord.com/channels/1001230734510956727/1001230734510956730/1001237981147717632`
@@ -72,35 +72,36 @@ Use `/register <channel_name>` to "register" a streamer channel to a text channe
 
 ![image](https://user-images.githubusercontent.com/76059582/184274581-c0e3c7b2-e418-4248-99b2-5aa7f55cef09.png)
 
-`/stream <channel url or stream url>` to enable clipping one particular stream. If you enter a channel, that channel's current or next stream will be enabled.
+`/stream <channel url or stream url>` to enable clipping one particular stream. If you enter a channel, that channel's current or next stream will be enabled. If you enter a stream url, that stream will be enabled, whether is currently live, upcoming or a VOD.
 
 The Discord file size limit is 8 MB for unboosted, and 100 MB for boosted servers. If the clips exceed this size, the bot posts a *link* to a clip instead. This is disabled by default, so be sure to run `/allow-links True` once allow the bot to post links.
 
 If something "yabe" happens on stream, or if a stream is "unarchived", and you don't want people to clip that stream, use `/block-stream <stream_url>` to block that particular stream from being clipped for the next 48 hours (probably enough time for the VOD to either be edited or privated.)
 
+`/repost-clips` will repost clips made in a channel to another channel; useful if you people use the bot in a busy channel, but you want to collect the clips in a seperate channel or thread.
+
 ### Slash commands
 
-By default, all commands are disabled except to the server admins, even if it doesn't appear so in the Discord menu (this is a Discord bug). You need to manually assign roles to the commands in the Discord GUI. `/c`, `/c-timestamp`, `/edit`, `/a`, `/ss` commands are for general use, while the __other commands should have more restricted permissions__.
+By default, setup/admin related commands are only available to server admins, while other commands are available to everyone. You can manually assign roles to the commands in the Discord GUI. `/c`, `/c-timestamp`, `/edit`, `/a`, `/ss` commands are for general use, while the __other commands should have more restricted permissions__.
+
+The permission system for the legacy (non-slash) commands does **not** sync with the slash commands, so it is advised to **only enable the slash commands or the legacy commands, and not the both types of commands at the same time**. You can disable legacy commands with `/disable-legacy-commands` .
 
 #### Migrating
 
 If the bot is already on the server, but it doesn't have slash commands, you need to re-invite the bot with the new invite link.
 
-The permission system for legacy (non-slash) commands does **not** sync with the slash commands, so it is advised to **only enable slash commands or the legacy commands, and not the both type of commands at the same time**. You can disable legacy commands by simply removing the "View Channel (Read Messages)" permission from the bot.
 
 ### Legacy commands
 
 Use `__help Admin` to explore the settings related commands.  
-The permission system for legacy commands is too complicated (and buggy) that I can't explain how to use them here, it is better to just contact me (developer) and ask, or even better yet, use slash commands instead as those have a permission system built in.
+The permission system for legacy commands is too complicated (and buggy) that I can't explain how to use them here, it is better to just contact me (developer) and ask, or even better yet, use slash commands instead as those have a permission system built-in to Discord GUI.
 
 ### Adding to the server
 
 You can contact me (Terlick#8575) at Discord if you want to add the bot to your server, or have any questions.
 
 #### Required Permissions
-![image](https://user-images.githubusercontent.com/76059582/185222260-8c598c4f-b5cd-4a93-8f5a-0e5460e86b94.png)
-
-In addition, "Read Messages (View Channel)" permission is required for legacy commands.
+![image](https://user-images.githubusercontent.com/76059582/188484558-ccd78b72-2b54-4e8c-9626-b32f757ac993.png)
 
 ---
 
