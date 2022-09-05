@@ -78,7 +78,7 @@ The Discord file size limit is 8 MB for unboosted, and 100 MB for boosted server
 
 If something "yabe" happens on stream, or if a stream is "unarchived", and you don't want people to clip that stream, use `/block-stream <stream_url>` to block that particular stream from being clipped for the next 48 hours (probably enough time for the VOD to either be edited or privated.)
 
-`/repost-clips` will repost clips made in a channel to another channel; useful if you people use the bot in a busy channel, but you want to collect the clips in a seperate channel or thread.
+`/repost-clips` will repost clips made in a channel to another channel; useful if people use the bot in a busy channel, but you want to collect the clips in a seperate channel or thread.
 
 ### Slash commands
 
