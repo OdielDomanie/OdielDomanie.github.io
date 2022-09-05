@@ -31,4 +31,5 @@ This will make your Discord audio _balanced_ on your end; if it makes everyone t
 ---
 
 ### Permissions
-The bot requires "View Channels (Read Messages)" permissions for **only** the Voice Channels; you can disable this permission for every other channel.
+The bot requires "Connect" permission.  
+In addition, "View Channels (Read Messages)" permission is needed for **only** the Voice Channels; you can disable this permission for every other channel.
