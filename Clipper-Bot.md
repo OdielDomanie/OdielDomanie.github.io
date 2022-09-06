@@ -82,7 +82,7 @@ If something "yabe" happens on stream, or if a stream is "unarchived", and you d
 
 ### Slash commands
 
-By default, setup/admin related commands are only available to server admins, while other commands are available to everyone. You can manually assign roles to the commands in the Discord GUI. `/c`, `/c-timestamp`, `/edit`, `/a`, `/ss` commands are for general use, while the __other commands should have more restricted permissions__.
+By default, slash commands are only available to server admins. You should manually assign roles (and channels) to the commands in the Discord GUI. `/c`, `/c-timestamp`, `/edit`, `/a`, `/ss` commands are for general use, while the __other commands should have more restricted permissions__.
 
 The permission system for the legacy (non-slash) commands does **not** sync with the slash commands, so it is advised to **only enable the slash commands or the legacy commands, and not the both types of commands at the same time**. You can disable legacy commands with `/disable-legacy-commands` .
 
