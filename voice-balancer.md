@@ -8,11 +8,11 @@ permalink: /voicebalancer/
 
 Discord bot to find out the optimal volume settings for people in a voice channel!
 
-It uses the international loudness measurement standard [ITU-R BS.1770-4](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1770-4-201510-I!!PDF-E.pdf) for optimal measurement.
+Voice Balancer Bot measures "loudness" values in LUFS units for optimal results.
 
 Use `/measure` to have the bot join your voice channel, measure everyone's loudness, and recommend at what % you should set everyone's volume at.
 
-### ➔ [Invite link](https://discord.com/api/oauth2/authorize?client_id=949624987629813780&permissions=1049600&scope=bot%20applications.commands)
+#### ➔ [Invite link](https://discord.com/api/oauth2/authorize?client_id=949624987629813780&permissions=1049600&scope=bot%20applications.commands)
 
 
 
@@ -36,4 +36,4 @@ In addition, "View Channels (Read Messages)" permission is needed for **only** t
 
 ---
 
-Source code at: https://github.com/OdielDomanie/voice_eq_bot
+Source code at: [https://github.com/OdielDomanie/voice_eq_bot](https://github.com/OdielDomanie/voice_eq_bot)
