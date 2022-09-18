@@ -8,7 +8,7 @@ permalink: /voicebalancer/
 
 Discord bot to find out the optimal volume settings for people in a voice channel!
 
-Voice Balancer Bot measures "loudness" values in LUFS units for optimal results.
+Voice Balancer Bot measures "loudness" values in [LUFS](https://en.wikipedia.org/wiki/LKFS) units for optimal results.
 
 Use `/measure` to have the bot join your voice channel, measure everyone's loudness, and recommend at what % you should set everyone's volume at.
 
