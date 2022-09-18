@@ -1,4 +1,3 @@
-remote_theme: dracula/gh-pages
-title: bot
+remote_theme: pages-themes/primer
 show_downloads: false
 show_header: false
