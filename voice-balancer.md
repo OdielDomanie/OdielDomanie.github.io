@@ -12,10 +12,10 @@ Voice Balancer Bot measures "loudness" values in [LUFS](https://en.wikipedia.org
 
 Use `/measure` to have the bot join your voice channel, measure everyone's loudness, and recommend what *%* you should set everyone's volume at.
 
-#### ➔ [Invite link](https://discord.com/api/oauth2/authorize?client_id=949624987629813780&permissions=1049600&scope=bot%20applications.commands)
+### 🡺 [Invite link](https://discord.com/api/oauth2/authorize?client_id=949624987629813780&permissions=1049600&scope=bot%20applications.commands) 🡸
 
 
-
+---
 ---
 
 ## Example
